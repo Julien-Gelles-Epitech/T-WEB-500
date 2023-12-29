@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+.panel1{
+    border-radius: 50px 0 0 0;
+}
+.img{
+    position: relative;
+    width: 80%;
+    height: 65%;
+    border-radius: 47px 0 0 0;
+}
+.img img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 47px 0 0 0;
+    margin-left: 25%;
+}
+.name{
+    position: relative;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    border-top: solid 1px #E9EAF0;
+}
+.name h1{
+    font-size: 12vw;
+    letter-spacing: 0.4vw;
+    padding-left: 15px;
+    
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+.name p{
+    font-size: 3.5vw;
+    letter-spacing: 2vw;
+    line-height: calc(1vh + 20px);
+    padding-bottom: 5px;
+
+    position: absolute;
+    font-family: 'Alike Angular', serif;
+    text-align: right;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+}
+.title{
+    position: relative; 
+    width: 100%;
+    height: 9%;
+    border-top: solid 1px #E9EAF0;
+}
+.title h3{
+    font-size: 5vw;
+    letter-spacing: 2vw;
+    line-height: calc(2vh + 10px);
+    padding-bottom: 5px;
+
+
+    font-family: 'Alike Angular', serif, 1000;
+    margin: 0;
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects a{
+    margin: 0;
+    position: relative;
+    width: 75%;
+    height: 75%;
+}
+.projects a :hover{
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+.projects a img{
+    width: 100%;
+    height: 100%;
+    border: solid 2px #E9EAF0;
+    border-radius: 50px 0px;
+}
+.project{
+    position: relative;
+    width: 100%;
+    height: 19%;
+    border-top: solid 1px #E9EAF0;
+}
+.project h1{
+    font-size: 12vw;
+    letter-spacing: 1vw;
+
+    font-family: 'Alike Angular', serif, 1000;
+
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    position: relative;
+    width: 100%;
+    height: 19%;
+    border-bottom: solid 1px #E9EAF0;
+}
+.skill h1{
+    font-size: 12vw;
+    letter-spacing: 1vw;
+
+    font-family: 'Alike Angular', serif, 1000;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languages{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.languages div, .languages p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    position: relative;
+    width: calc(25% - 1px);
+    height: 20%;
+}
+.languages div:nth-child(2n){
+    border-right: solid #E9EAF0 1px;
+}
+.skills{
+    position: relative;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: solid 1px #E9EAF0;
+}
+.skills div, .skills p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.languages div :hover, .skills div :hover{
+    transition-duration: 0.3s;
+    transform: scale(1.3);
+}
+
+.experience{
+    position: relative;
+    width: 100%;
+    height: 19%;
+    border-bottom: solid 1px #E9EAF0;
+}
+.experience h1{
+    font-size: 12vw;
+    letter-spacing: 1vw;
+
+    font-family: 'Alike Angular', serif, 1000;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiences{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.timelineexperience{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+.timelineexperience .point, .timelineexperience .line{
+    position: relative;
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timelineexperience .point div{
+    position: relative;
+    width: 12%;
+    height: 20%;
+    border: solid #E9EAF0 3px;
+    border-radius: 90px;
+}
+.timelineexperience .line div{
+    width: 0%;
+    height: 100%;
+    border: solid #E9EAF0 2px;
+    border-radius: 90px;
+}
+.experiencecontent{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+.point:hover div{
+    background-color: #E9EAF0;
+}
+.experiencecontent h3, .experiencecontent p{
+    margin: 0;
+    position: relative;
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    align-items: center; 
+}
+.experiencecontent h3{
+    font-size: 7vw;
+    letter-spacing: 0.5vw;
+}
+.experiencecontent p{
+    font-size: 5vw;
+}
+
+.formation{
+    position: relative;
+    width: 100%;
+    height: 19%;
+    border-bottom: solid 1px #E9EAF0;
+}
+.formation h1{
+    font-size: 12vw;
+    letter-spacing: 1vw;
+
+    font-family: 'Alike Angular', serif, 1000;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formations{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.timelineformation{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+.timelineformation .point, .timelineformation .line{
+    position: relative;
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timelineformation .point div{
+    position: relative;
+    width: 12%;
+    height: 20%;
+    border: solid #E9EAF0 3px;
+    border-radius: 90px;
+}
+.timelineformation .line div{
+    width: 0%;
+    height: 100%;
+    border: solid #E9EAF0 2px;
+    border-radius: 90px;
+}
+.formationcontent{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+.formationcontent h3, .formationcontent p{
+    margin: 0;
+    position: relative;
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center; 
+}
+.formationcontent h3{
+    font-size: 7vw;
+    letter-spacing: 0.5vw;
+}
+.formationcontent p{
+    font-size: 5vw;
+}
+
+.contact{
+    position: relative;
+    width: 100%;
+    height: 19%;
+    border-bottom: solid 1px #E9EAF0;
+}
+.contact h1{
+    font-size: 12vw;
+    letter-spacing: 1vw;
+
+    font-family: 'Alike Angular', serif, 1000;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position: relative;
+    width: 100%;
+    height: 59%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #E9EAF0;
+}
+.form div{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form div input{
+    height: 35%;
+    background-color: #e9eaf000;
+    border-radius: 0 10px;
+    color: #E9EAF0;
+}
+.form div textarea{
+    height: 50%;
+    background-color: #e9eaf000;
+    border-radius: 0 10px;
+    color: #E9EAF0;
+}
+.form div:last-child input{
+    width: 50%;
+}
+.form div input:hover, .form div textarea:hover{
+    background-color: #E9EAF0;
+    color: black;
+}
+
+.form input, .form textarea{
+    width: 100%;
+}
+.links{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.links a{
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a img{
+    height: 30%;
+}
+.links a img:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.3);
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .name h1{
+        font-size: 5.5vw;
+        letter-spacing: 0.4vw;
+        padding-left: 10px;
+    }
+    .name p{
+        font-size: 1.8vw;
+        letter-spacing: 1vw;
+        line-height: calc(1vh + 20px);
+        padding-bottom: 5px;
+    }
+    .title h3{
+        font-size: 2.5vw;
+        letter-spacing: 1vw;
+        line-height: calc(2vh + 10px);
+        padding-bottom: 5px;
+    }
+
+    .project h1{
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+    }
+
+    .skill h1{
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+    }
+
+    .formation h1{
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+    }
+    .formationcontent h3{
+        font-size: 3.5vw;
+        letter-spacing: 0.3vw;
+    }
+    .formationcontent p{
+        font-size: 2.5vw;
+    }
+
+    .experience h1{
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+    }
+    .experiencecontent h3{
+        font-size: 3.5vw;
+        letter-spacing: 0.3vw;
+    }
+    .experiencecontent p{
+        font-size: 2.5vw;
+    }
+
+    .contact h1{
+        font-size: 5vw;
+        letter-spacing: 0.6vw;
+    }
+
+}
+@media (min-width: 1025px){
+    .name h1{
+        font-size: 3.7vw;
+        letter-spacing: 0.4vw;
+        padding-left: 10px;
+    }
+    .name p{
+        font-size: 1.2vw;
+        letter-spacing: 0.5vw;
+        line-height: calc(0.5vh + 20px);
+        padding-bottom: 5px;
+    }
+    .title h3{
+        font-size: 1.5vw;
+        letter-spacing: 1vw;
+        line-height: calc(2vh + 10px);
+        padding-bottom: 5px;
+    }
+
+    .project h1{
+        font-size: 3.2vw;
+        letter-spacing: 0.4vw;
+    }
+
+    .skill h1{
+        font-size: 3.2vw;
+        letter-spacing: 0.4vw;
+    }
+
+    .formation h1{
+        font-size: 3.2vw;
+        letter-spacing: 0.4vw;
+    }
+    .formationcontent h3{
+        font-size: 2.3vw;
+        letter-spacing: 0.1vw;
+    }
+    .formationcontent p{
+        font-size: 1.5vw;
+    }
+
+    .experience h1{
+        font-size: 3.2vw;
+        letter-spacing: 0.4vw;
+    }
+    .experiencecontent h3{
+        font-size: 2.3vw;
+        letter-spacing: 0.1vw;
+    }
+    .experiencecontent p{
+        font-size: 1.5vw;
+    }
+
+    .contact h1{
+        font-size: 3.2vw;
+        letter-spacing: 0.4vw;
+    }
+}
