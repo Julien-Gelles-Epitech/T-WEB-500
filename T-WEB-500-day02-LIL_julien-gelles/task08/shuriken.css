@@ -1,0 +1,54 @@
+/* BONUS : TO HAVE A COOL SHURIKEN ROTATING INSTEAD OF A SQUARE */
+.shuriken{
+    width: 150px;
+	height: 150px;
+	position: relative;
+    animation-name            : move_square;
+    animation-duration        : 5s;
+    animation-iteration-count : infinite;
+}
+@keyframes move_square{
+    0%{
+        transform : translate(0,0) rotate(0deg);
+    }
+    25%{
+        transform : translate(300px,0) rotate(1440deg);
+    }
+    50%{
+        transform : translate(300px,-300px) rotate(0deg);
+    }
+    75%{
+        transform : translate(0,-300px) rotate(1440deg);
+    }
+
+}
+.shuriken::before {
+	content: "";
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	transform: rotate(-45deg) skew(20deg, 20deg);
+	background: #FF0000;
+}
+.shuriken::after {
+	content: "";
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	transform: rotate(45deg) skew(20deg, 20deg);
+	background: #ff4d4d;
+}
+.shuriken div {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	border-radius: 50%;
+	background: #FFF;
+	z-index: 1;
+}

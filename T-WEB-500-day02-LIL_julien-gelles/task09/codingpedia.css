@@ -1,0 +1,76 @@
+html{
+    background-color: grey;
+}
+body{
+    background-color: white;
+    width: 100vw;
+    margin: 0;
+    padding: 5px 0;
+}
+.box{
+    border: solid black 2px;
+    padding: 5px;
+    margin: 5px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(5);
+}
+h1{
+    grid-column: 1/5;
+    grid-row: 1;
+    margin: auto 5px;
+}
+nav{
+    grid-column: 5;
+    grid-row: 1;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px;
+}
+li{
+    text-align: center;
+    width: 33%;
+} 
+.section-aside{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+section{
+    width: 80%;
+    margin-right: 5px;
+}
+aside{
+    width: 20%;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(6); 
+}
+label{
+    grid-column: 1;
+}
+input, select, textarea{
+    grid-column: 3/6;
+    margin: 2px;
+}
+#date{
+    grid-column: 3/4;
+}
+#sexe-div{
+    grid-column: 3;
+}
+#submit{
+    grid-column: 5;
+}
+footer{
+    text-align: center;
+}
+article:first-of-type{
+    padding-bottom: 20px;
+}
+

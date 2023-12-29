@@ -1,0 +1,73 @@
+<title>CodingPedia</title>
+<link rel="stylesheet" href="codingpedia.css">
+<link rel="stylesheet" href="shuriken.css">
+<header class="box">
+    <h1>Welcome to CodingPedia!</h1>
+    <nav class="box">
+        <ul>
+            <li>
+                <a href="index.html">Index</a>
+            </li>
+            <li>
+                <a href="php.html">PHP</a>
+            </li>
+            <li>
+                <a href="sql.html">SQL</a>
+            </li>
+        </ul>
+    </nav>
+</header><br>
+<main class="box">
+    <p class="box">CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi - lingual which functions as a wiki .<br>CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve .</p>
+    <form class="box">
+        <label for="name">Name</label><br>
+            <input type="text" id="name" required><br>
+
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" required><br>
+
+            <label for="age">Age</label><br>
+            <input type="number" id="age" min="3" max="99"><br>
+
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" pattern="^0[0-9]{9}"><br>
+
+            <label>Sex</label><br>
+            <input type="radio" id="male" name="sex" checked/>
+            <label for="male">male</label>
+            <input type="radio" id="female" name="sex"/>
+            <label for="female">female</label><br>
+
+            <label for="hair">Hair color</label><br>
+            <input type="color" id="hair"><br>
+
+            <label for="date">Date</label><br>
+            <input type="date" id="date" required><br>
+
+            <label for="technologie">Technologie</label><br>
+            <select id="technologie">
+                <option value="php">PHP</option>
+                <option value="sql">SQL</option>
+            </select><br>
+
+            <label for="question">Question</label><br>
+            <textarea id="question" required></textarea><br>
+
+            <input type="submit" value="Submit">   
+    </form>
+</main><br>
+<aside class="box">
+    <p>Hello there oO</p>
+    <div class="shuriken"><div></div></div>
+</aside><br>
+<footer class="box">
+    <address>
+        name: Gelles<br>
+        first name: Julien<br>
+        address: un peu plus loin<br>
+        tel: 01.42.92.81.00<br>
+    </address>
+</footer>

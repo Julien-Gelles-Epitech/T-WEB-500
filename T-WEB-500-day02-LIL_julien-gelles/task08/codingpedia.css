@@ -1,0 +1,35 @@
+html{
+    background-color: grey;
+}
+.box{
+    border: solid black 2px;
+    margin: 10px;
+    padding: 0 10px;
+    background-color: white;
+}
+article{
+    border: solid black 2px;
+    margin: 5px;
+}
+main, aside{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    width: 80%;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(5);
+}
+h1{
+    grid-column: 1/5;
+    grid-row: 1;
+}
+nav{
+    grid-column: 5;
+    grid-row: 1;
+}
+#date{
+    grid-column: 4;
+}
